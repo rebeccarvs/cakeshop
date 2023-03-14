@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Cake First Girls</title>
+    <link rel="stylesheet" href="./css/week7.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/73be29d74f.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header onclick="myinput()">
+      Click here to refer a friend and get £20 off your next purchase! For a
+      limited time only.
+    </header>
+    <p id="msg"></p>
+    <script>
+      function myinput() {
+        var name = prompt("Please enter your email address");
+        if (name == null || name == "") {
+          document.getElementById("msg").innerHTML =
+            "You did not enter anything. Please enter your email address again.";
+        } else {
+          document.getElementById("msg").innerHTML =
+            "Thank you, a referral code has been sent to your email address.";
+        }
+      }
+    </script>
+    <br />
+    <ul class="topnav">
+      <a class="cakefirstgirls" href="index.html">Cake First Girls</a>
+      <input class="search" placeholder="🔍 Search products....." />
+      <div class="icons">
+        <a class="heart" href="construction.html"
+          ><img
+            src="https://cdn-icons-png.flaticon.com/128/151/151910.png"
+            width="20"
+            alt="Heart"
+        /></a>
+        <a class="login" href="construction.html"
+          ><img
+            src="https://icon-library.com/images/head-icon/head-icon-7.jpg"
+            width="18"
+            alt="login icon"
+          />
+          Login</a
+        >
+        <a class="trolley" href="construction.html"
+          ><img
+            src="https://icons-for-free.com/iconfiles/png/512/simple+and+minimal+line+icons+basket-1324450506620092967.png"
+            width="18"
+            alt="trolly icon"
+        /></a>
+      </div>
+    </ul>
+
+    <ul class="secondnav">
+      <a class="products" href="construction.html"> Products</a>
+      <a class="about" href="construction.html"> About Us</a>
+
+      <a class="clickandcollect" href="construction.html"> Click & Collect</a>
+      <a class="contact" href="construction.html"> Contact</a>
+    </ul>
+    <hr />
+
+    <div class="hero-image"></div>
+    <div class="hero-text">
+      <h1>All good party plans start with cake</h1>
+      <p class="hero-description">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+        velit, vulputate eu pharetra nec, mattis ac neque.
+      </p>
+      <button class="all-products-button">
+        <a href="construction.html"> ALL PRODUCTS</a>
+      </button>
+    </div>
+    <hr />
+    <div class="featured-row">
+      <div class="featured-column">
+        <div class="featured-container">
+          <img
+            src="https://i.pinimg.com/564x/16/ad/61/16ad61761d56800b4801cbc56ae2e40f.jpg"
+            alt="Vegan Cake"
+            class="featured-image"
+            style="width: 100%"
+          />
+          <div class="featured-middle">
+            <a class="featured-text" href="construction.html">Dietary</a>
+          </div>
+        </div>
+      </div>
+      <div class="featured-column">
+        <div class="featured-container">
+          <img
+            src="https://i.pinimg.com/564x/39/bb/f5/39bbf5ae1c2b21de11a6973896a2125c.jpg"
+            alt="Birthday Cake"
+            class="featured-image"
+            style="width: 100%"
+          />
+          <div class="featured-middle">
+            <a class="featured-text" href="construction.html">Birthday</a>
+          </div>
+        </div>
+      </div>
+      <div class="featured-column">
+        <div class="featured-container">
+          <img
+            src="https://i.pinimg.com/564x/6f/b1/ea/6fb1ea6e546178f8e9f1a987e5f7def6.jpg"
+            alt="Wedding Cake"
+            class="featured-image"
+            style="width: 100%"
+          />
+          <div class="featured-middle">
+            <a class="featured-text" href="construction.html">Wedding</a>
+          </div>
+        </div>
+      </div>
+      <hr />
+    </div>
+    <br />
+    <a class="bestsellers" href="construction.html">Best sellers</a>
+    <a class="browse" href="construction.html">BROWSE ALL BESTSELLERS</a>
+    <br />
+    <div class="bestsellers-row">
+      <div class="bestsellers-column">
+        <div class="bestsellers-content">
+          <img
+            src="https://i.pinimg.com/564x/b7/64/71/b764710ca8bf92385698f97ca2122335.jpg"
+            alt="Strawberry Chamomile Cake"
+            style="width: 100%"
+          />
+          <a href="Strawberry Chamomile Cake.html">
+            <h4>Strawberry Chamomile Cake</h4></a
+          >
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+      <div class="bestsellers-column">
+        <div class="bestsellers-content">
+          <img
+            src="https://i.pinimg.com/564x/b3/aa/33/b3aa33c2bc6a402a0ab2a5b4bd705662.jpg"
+            alt="Chocolate Fudge Cake"
+            style="width: 100%"
+          />
+          <h4>Chocolate Fudge Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+      <div class="bestsellers-column">
+        <div class="bestsellers-content">
+          <img
+            src="https://i.pinimg.com/564x/a1/02/ff/a102ff3a1258cacc17118397b6dd2523.jpg"
+            alt="Confetti Layer Cake"
+            style="width: 100%"
+          />
+          <h4>Confetti Layer Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+      <div class="bestsellers-column">
+        <div class="bestsellers-content">
+          <img
+            src="https://i.pinimg.com/564x/38/65/5f/38655facafb0509f1b41bbe02824d717.jpg"
+            alt="Chocolate Coffee Cake"
+            style="width: 100%"
+          />
+          <h4>Chocolate Coffee Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+
+      <div class="bestsellers-column">
+        <div class="bestsellers-content">
+          <img
+            src="https://i.pinimg.com/564x/06/cc/8d/06cc8d237206559e28d46db1eb4f9c50.jpg"
+            alt="Blackberry Lavender Cake"
+            style="width: 100%"
+          />
+          <h4>Blackberry Lavender Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+    </div>
+    <br />
+    <p class="easter-collection">Easter Collection</p>
+    <a class="browse-easter" href="construction.html">BROWSE ALL EASTER</a>
+    <br />
+    <div class="easter-row">
+      <div class="easter-column">
+        <div class="easter-content">
+          <img
+            src="https://i.pinimg.com/564x/12/1b/44/121b4435df22d7f0945a781134d48f00.jpg"
+            alt="Chocolate Egg Cake"
+            style="width: 100%"
+          />
+          <h4>Chocolate Egg Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+
+      <div class="easter-column">
+        <div class="easter-content">
+          <img
+            src="https://i.pinimg.com/564x/19/7e/e9/197ee938d7fdeb446448738c7f8ba2e8.jpg"
+            alt="Carrot Cake"
+            style="width: 100%"
+          />
+          <h4>Carrot Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+      <div class="easter-column">
+        <div class="easter-content">
+          <img
+            src="https://i.pinimg.com/564x/a0/1b/9d/a01b9d9d03850b76f21993d12823a67f.jpg"
+            alt="Chocolate Bunny Cake"
+            style="width: 100%"
+          />
+          <h4>Chocolate Bunny Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+      <div class="easter-column">
+        <div class="easter-content">
+          <img
+            src="https://i.pinimg.com/564x/03/e4/e5/03e4e589e9f06e60a4b916f68e7e30e2.jpg"
+            alt="Children's Carrot Cake"
+            style="width: 100%"
+          />
+          <h4>Children's Carrot Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+
+      <div class="easter-column">
+        <div class="easter-content">
+          <img
+            src="https://i.pinimg.com/564x/87/a3/2f/87a32f52a1c8a64e589b9e7811a827fe.jpg"
+            alt="Mini Egg Filled Cake"
+            style="width: 100%"
+          />
+          <h4>Mini Egg Filled Cake</h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+          <h3>£75.00</h3>
+        </div>
+      </div>
+    </div>
+    <!-- subscribe form -->
+    <form action="/action_page.php" style="border: 1px solid #ccc">
+      <div class="subscribe-row">
+        <div class="subscribe-column">
+          <div class="subscribe-container">
+            <h5>Grab an extra 5% discount</h5>
+            <p>
+              Subscribe to monthly newsletter. Get the latest product updates
+              and special offers delivered right to your inbox.
+            </p>
+          </div>
+        </div>
+        <div class="subscribe-column">
+          <input type="text" placeholder="Enter Email" name="email" required />
+
+          <div class="clearfix">
+            <button class="subscribe-button" type="submit" class="signupbtn">
+              Subscribe
+            </button>
+          </div>
+        </div>
+      </div>
+    </form>
+    <br />
+    <div class="rating-row">
+      <div class="rating-column">
+        <h5 class="our-rating">Our Rating</h5>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p class="based-on">Based on 2303 reviews</p>
+      </div>
+      <div class="rating-column">
+        <br />
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p class="review-title">Great value and quality</p>
+
+        <p class="review">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+          velit...
+        </p>
+        <p class="review-by">John Doe, 6 days ago</p>
+      </div>
+      <div class="rating-column">
+        <br />
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p class="review-title">Beautiful design!</p>
+
+        <p class="review">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+          velit...
+        </p>
+        <p class="review-by">Jane Doe, 7 days ago</p>
+      </div>
+      <div class="rating-column">
+        <br />
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star"></span>
+        <p class="review-title">Exactly what I wanted</p>
+
+        <p class="review">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam
+          velit...
+        </p>
+        <p class="review-by">Jet Doe, 9 days ago</p>
+      </div>
+    </div>
+    <hr />
+    <div class="icon-bar">
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+      <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+    </div>
+  </body>
+</html>

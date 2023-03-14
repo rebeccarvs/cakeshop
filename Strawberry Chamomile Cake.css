@@ -1,0 +1,175 @@
+body {
+  margin: 0%;
+}
+header {
+  color: white;
+  background-color: #444444;
+  font-family: "Source Sans 3", sans-serif;
+  font-weight: 300;
+  text-align: center;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+.topnav {
+  display: inline-flex;
+  padding: 0;
+  width: 100%;
+  font-family: "Source Sans 3", sans-serif;
+  font-size: 22px;
+  font-weight: bolder;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  color: #444444;
+  font-weight: 550;
+}
+.cakefirstgirls {
+  text-align: center;
+  width: 33%;
+}
+.search {
+  border-radius: 40px;
+  text-align: center;
+  padding: 8px 380px 8px 10px;
+  border-color: #c0c0c0;
+  width: 33%;
+}
+.icons {
+  width: 33%;
+  text-align: center;
+}
+.heart {
+  text-align: right;
+}
+.login {
+  padding: 0px 9px;
+  font-size: 12px;
+  text-align: right;
+}
+.trolley {
+  font-size: 12px;
+  text-align: right;
+}
+.secondnav {
+  width: 100%;
+  overflow: auto;
+  font-family: "Source Sans 3", sans-serif;
+  margin: 16px 0px 0px 0px;
+}
+.products {
+  float: left;
+  padding: 5px;
+  width: 22%;
+  text-align: center;
+}
+.about {
+  float: left;
+  padding: 5px;
+  width: 22%;
+  text-align: center;
+}
+.clickandcollect {
+  float: left;
+  padding: 5px;
+  width: 22%;
+  text-align: center;
+}
+.contact {
+  float: left;
+  padding: 5px;
+  width: 22%;
+  text-align: center;
+}
+hr {
+  opacity: 0.2;
+}
+
+img {
+  h4 {
+    font-family: "Source Sans 3", sans-serif;
+    color: #444444;
+  }
+  p {
+    font-family: "Source Sans 3", sans-serif;
+    color: #444444;
+    font-size: 14px;
+  }
+  h3 {
+    font-family: "Source Sans 3", sans-serif;
+    color: #444444;
+    font-size: 15px;
+  }
+}
+h2 {
+  float: right;
+  font-family: "Source Sans 3", sans-serif;
+}
+.strawberry {
+  margin-left: 5cm;
+}
+.strawtext {
+  float: right;
+}
+.trolley {
+  font-size: 12px;
+  text-align: right;
+}
+.add {
+  font-weight: bold;
+}
+
+.price {
+  font-size: medium;
+  font-weight: bold;
+  color: blue;
+}
+.heart {
+  vertical-align: auto;
+}
+h4 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #444444;
+}
+p {
+  font-family: "Source Sans 3", sans-serif;
+  color: #444444;
+  font-size: 14px;
+}
+h3 {
+  font-family: "Source Sans 3", sans-serif;
+  color: #444444;
+  font-size: 15px;
+}
+/* subscribe form */
+h5 {
+  font-size: 18px;
+}
+body {
+  font-family: "Source Sans 3", sans-serif;
+}
+* {
+  box-sizing: border-box;
+}
+form {
+  padding: 50px 100px;
+  background-color: #f6f6f6;
+  border-radius: 0;
+}
+input[type="text"] {
+  width: 90%;
+  padding: 15px;
+  margin: 35px 0 14px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
